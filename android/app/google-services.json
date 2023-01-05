@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "646616493229",
+    "project_id": "speech2face-846d6",
+    "storage_bucket": "speech2face-846d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646616493229:android:19acbe34192c6f65ce6a24",
+        "android_client_info": {
+          "package_name": "com.example.speech2face"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646616493229-c30toltm4rr0a1ehmpglsksv7d49vrpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKlnJlCQ7L8EnmWG1VVcb0quvJH61wbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646616493229-c30toltm4rr0a1ehmpglsksv7d49vrpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
