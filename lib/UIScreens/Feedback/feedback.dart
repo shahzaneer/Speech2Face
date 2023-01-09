@@ -1,6 +1,8 @@
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:speech2face/Utils/colors.dart';
+import 'package:speech2face/Utils/toast.dart';
 import 'package:speech2face/Widgets/our_button.dart';
 import '../../Widgets/oval_design.dart';
 
@@ -78,7 +80,13 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                     width: 150,
                     height: 45,
                     color: Coloors.kSecondaryColor,
-                    onTap: () {}),
+                    onTap: () {
+                      Paigham.toastsMessage(
+                          "Your Feedback has been sumbitted successfully");
+                      setState(() {
+                        _controller.clear();
+                      });
+                    }),
                 const SizedBox(
                   width: 20,
                 ),
@@ -87,7 +95,9 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                     width: 150,
                     height: 45,
                     color: Coloors.kSecondaryColor,
-                    onTap: () {}),
+                    onTap: () {
+                      Navigator.of(context).pop();
+                    }),
               ],
             ),
           ),

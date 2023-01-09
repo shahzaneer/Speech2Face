@@ -69,7 +69,9 @@ class ImageView extends StatelessWidget {
                   const SizedBox(
                     height: 30,
                   ),
-                  TextButton(onPressed: (){}, child: Text("Back?" , style: GoogleFonts.inter(fontSize: 20, fontWeight: FontWeight.normal , color: Coloors.kBlack),),)
+                  TextButton(onPressed: (){
+                    Navigator.of(context).pop(context);
+                  }, child: Text("Back?" , style: GoogleFonts.inter(fontSize: 20, fontWeight: FontWeight.normal , color: Coloors.kBlack),),)
                 ],
               ),
             ),

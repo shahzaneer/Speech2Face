@@ -69,7 +69,9 @@ class VectorView extends StatelessWidget {
                     height: 30,
                   ),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pop(context);
+                    },
                     child: Text(
                       "Back?",
                       style: GoogleFonts.inter(
@@ -83,7 +85,6 @@ class VectorView extends StatelessWidget {
             ),
           ),
         ],
-        
       ),
     );
   }
